@@ -2,7 +2,7 @@ import uvicorn
 from fastapi import FastAPI, HTTPException, Depends
 from sqlalchemy.orm import Session
 from pydantic import BaseModel
-from typing import List, Optional
+from typing import Optional
 from datetime import date
 from database import engine
 import models
